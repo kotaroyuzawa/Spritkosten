@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+}
+
+/*Nav*/
+nav {
+    margin: 30px 50px;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    flex-direction: row;
+    margin: 10px;
+}
+
+nav a {
+    padding: 5px 10px;
+    background-color: #EB912D;
+    text-decoration: none;
+    font-size: 18px;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 10px;
+}
+
+/*Startseite*/
+.start-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px;
+}
+
+.start-container a {
+    font-size: 28px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.start-title{
+    font-size: 100px;
+    text-align: center;
+    color: #fff
+}
+
+.start-container button {
+    background-color: #EB912D;
+    width: 400px;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 15px;
+}
+
+.title, .successMessage{
+    font-size: 60px;
+    text-align: center;
+}
+
+
+
+.bill-container{
+    margin: 50px auto;
+    width: 700px;
+    background-color: #E3E3E7;;
+    border-radius: 25px;
+    padding: 50px;
+}
+
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin: 50px auto;
+    text-align: center;
+}
+
+th, td {
+    font-size: 18px;
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+    text-align: center;
+}
+
+input:not([type="submit"]) {
+    width: 150px;
+}
+
+input[type=submit]{
+    background-color: #2a5d84;
+    color: #fff;
+    margin: 0 25px 0 3px;
+}
+
+input[type=submit]:hover {
+    cursor: pointer;
+}
+
+#formCenter {
+    margin: 30px auto;
+    width: 700px;
+    background-color: #E3E3E7;
+    padding: 50px;
+    border-radius: 20px;
+}
+
+#carReadForm {
+    text-align: center;
+}
+
+#tankSearchForm {
+    margin: 30px auto;
+    width: 650px;
+    background-color: #E3E3E7;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.marked {
+    background-color: #e99b8f;
+}
+
+.error {
+    width: 100%;
+    font-size: 120%;
+    color: #d32a0e;
+}
+
+
+/*tankWithTax.php */
+
+.calcDiv {
+    margin: 50px auto;
+    width: 700px;
+    background-color: #E3E3E7;
+    border-radius: 25px;
+    padding: 50px;
+}
+
+.calcTable {
+    border-collapse: collapse;
+    border: 1px solid black;
+    margin: 20px auto;
+    width: 700px;
+}
+
+.calcTable td, .calcTable td {
+    border-collapse: collapse;
+    padding: 10px;
+}
