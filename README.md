@@ -2,7 +2,7 @@ This is a project for learning purposes to which I have added following features
 - Connection to the database by means of PDO
 - CRUD methods
 - Routing through Logger PHP library
-- JavaScript input filtering
+- input filtering with JavaScript
 
 
 ############################
