@@ -1,5 +1,12 @@
-#TEST
-hallo
+This is a project for learning purposes to which I have added following features step by step:
+- Connection to the database by means of PDO
+- CRUD methods
+- Routing through Logger PHP library
+- JavaScript input filtering
+
+
+############################
+
 PHP-Übung 25
 Aufgabenstellung
 
