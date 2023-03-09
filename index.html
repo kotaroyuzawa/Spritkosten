@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Spritkosten Startseite</title>
+        <link rel="stylesheet" href="public/style.css">
+        <style>
+            body {
+                background-image: url('public/gas-img.jpg');
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                background-size: cover;
+            }
+
+            .container {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                margin: 50px;
+            }
+
+        </style>
+    </head>
+    <body>
+        <h1 class="start-title">Tankdaten</h1>
+        <div class="start-container">
+            <div>
+                <button><a href="tanks/tankSearch">Tankdaten ansehen</a></button>
+                <button><a href="tanks/tankAdd">Tankdaten eintragen</a></button>
+            </div>
+            <div>
+                <button><a href="cars/carShow">Dienstwagen ansehen</a></button>
+                <button><a href="cars/carAdd">Dienstwagen registrieren</a></button>
+            </div>
+            <div>
+                <button><a href="drivers/driverShow">Fahrer ansehen</a></button>
+                <button><a href="drivers/driverShow">Fahrer registrieren</a></button>
+            </div>
+        </div>
+    </body>
+</html>
