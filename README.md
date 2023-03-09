@@ -1,7 +1,8 @@
 This is a project for learning purposes to which I have added following features step by step:
 - Connection to the database by means of PDO
 - CRUD methods
-- Routing through Logger PHP library
+- Implementing MVC-framework and OOP
+- Routing through Core file
 - input filtering with JavaScript
 
 
